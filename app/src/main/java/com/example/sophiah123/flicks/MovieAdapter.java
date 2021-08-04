@@ -63,7 +63,8 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
         //determine the current orientation
         boolean isPortrait = context.getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT;
 
-        //build url for poster image
+        // build url for poster image
+        // this will pull data from IMDB
         String imageUrl= null;
 
         //if in portrait mode, load the poster image
